@@ -129,5 +129,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "eslint-config-thanhpcc": "^1.0.2"
   }
 }
