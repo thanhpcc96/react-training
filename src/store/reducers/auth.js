@@ -8,7 +8,7 @@ const initState = {
 
 export default (state = initState, { type, payload }) => {
   switch (type) {
-    case authMarkLogin:
+    case 'markLogin':
       return {
         ...state,
         isLogged: true,
